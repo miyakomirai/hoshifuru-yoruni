@@ -1,0 +1,145 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: serif;
+  text-shadow: 1px 1px 2px #333333;
+}
+.starry_sky {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+}
+.top_title {
+  font-size: 90px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 10px;
+}
+h1 {
+  border-bottom: solid;
+  font-size: 50px;
+}
+.introduction {
+
+}
+.introduction > p {
+  text-align: center;
+}
+.intr_1 {
+  font-size: 30px;
+}
+.intr_2 {
+  font-size: 20px;
+}
+.intr_3 {
+  font-size: 30px;
+}
+.story {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.star {
+  flex: 1;
+  margin-right: 50px;
+}
+.star > h2,.aurora > h2 {
+  font-style: italic;
+  border-bottom: dotted;
+}
+.aurora {
+  margin-right: 50px;
+  flex: 1;
+}
+.star_add {
+  font-size: 16px;
+}
+.show_more {
+  border: 2px solid #008bbb;
+  box-shadow: 2px 2px 2px #333333;
+  border-radius: 10%;
+  background: none;
+  padding: 10px 20px;
+  font-family: serif;
+  color: white;
+  text-shadow: 1px 1px 2px #333333;
+  cursor: pointer;
+}
+.show_more:hover {
+  background: #008bbb;
+  box-shadow: none;
+}
+.author_content {
+  margin: 40px;
+}
+.miyako {
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+}
+
+/* 本編ページ */
+
+.main_title {
+  font-style: italic;
+  border-bottom: dotted;
+}
+.btn_home {
+  color: white;
+  font-family: Helvetica;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+.btn_home:hover {
+  color: #888888;
+}
+.star_main {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.star_novel {
+  flex: 1;
+  margin-right: 50px;
+}
+.novel_days {
+  border: 2px solid #008bbb;
+  box-shadow: 2px 2px 2px #333333;
+  border-radius: 10%;
+  background: none;
+  padding: 10px 20px;
+  font-family: Helvetica;
+  color: white;
+  text-shadow: 1px 1px 2px #333333;
+  cursor: pointer;
+}
+.noveldays_btn {
+  font-size: 18px;
+}
+.novel_days:hover {
+  background: #008bbb;
+  box-shadow: none;
+}
+
+.star_visual {
+  flex: 1;
+  margin-right: 50px;
+}
+.nvg_nos {
+  font-style: italic;
+  text-decoration: underline;
+}
+.btn_googleplay {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.novel_game {
+  display: flex;
+}
+.nvg_link, .nvg_attention {
+  font-size: 12px;
+}
