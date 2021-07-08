@@ -1,0 +1,12 @@
+@media screen and (max-width: 599px) {
+  .starry_sky > img {
+    display: none;
+  }
+  .top_title {
+    writing-mode: vertical-rl;
+  }
+  .story, .star_main {
+    display: block;
+    width: 100%;
+  }
+}
